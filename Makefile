@@ -11,4 +11,6 @@ dbtdemo: check-gomason
 
 # build the demo via 'gomason'
 gomason-build: check-gomason
-	gomason build
+	gomason build -vsl
+
+gomason-publish: check-gomason
